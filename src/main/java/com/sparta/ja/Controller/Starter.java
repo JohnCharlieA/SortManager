@@ -1,6 +1,6 @@
-package com.sparta.ja;
+package com.sparta.ja.Controller;
 
-import com.sparta.ja.Sorters.BubbleSort;
+import com.sparta.ja.Model.BubbleSort;
 
 public class Starter
 {

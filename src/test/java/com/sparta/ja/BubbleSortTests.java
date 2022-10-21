@@ -1,6 +1,6 @@
 package com.sparta.ja;
 
-import com.sparta.ja.Sorters.BubbleSort;
+import com.sparta.ja.Model.BubbleSort;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;

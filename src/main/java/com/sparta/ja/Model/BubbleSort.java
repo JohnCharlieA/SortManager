@@ -1,4 +1,4 @@
-package com.sparta.ja.Sorters;
+package com.sparta.ja.Model;
 
 public class BubbleSort {
 
