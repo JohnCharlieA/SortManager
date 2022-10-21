@@ -28,16 +28,14 @@ public class BubbleSort {
     }
 
     // Main method to test above
-    public static void main(String args[])
+    public static void bubbleSortGenerator()
     {
-        int arr[] = {64, 34, 25, 12, 22, 11, 91};
+        int a[] = {64, 34, 25, 12, 22, 11, 91};
 
-        bubbleSort(arr);//calling the bubbleSort function
+        bubbleSort(a);//calling the bubbleSort function
 
         System.out.println("Sorted array");
 
-        printArray(arr); //calling the printArray function
-    }
-}
+        printArray(a); //calling the printArray function
     }
 }
