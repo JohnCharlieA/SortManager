@@ -1,20 +1,26 @@
 package com.sparta.ja.Sorters;
-import java.util.*;
 
 public class BubbleSort {
 
-    public static void bubbleSort(int a[])
+    public static void SortByBubble(int inputArray[])
     {
-        int len = a.length; // calculating the length of array
-        for (int i = 0; i < len-1; i++)
-            for (int j = 0; j < len-i-1; j++)
-                if (a[j] > a[j+1]) //comparing the pair of elements
+        int length = inputArray.length; // calculating the length of array
+        for (int i = 0; i < length - 1; i++)
+        {  // for example 5, 2, 4, 8
+            for (int j = 0; j < length - 1; j++)
+            {
+                if (inputArray[j] > inputArray[j + 1]) //comparing the pair of elements
                 {
-                    // swapping a[j+1] and a[i]
-                    int temp = a[j];
-                    a[j] = a[j+1];
-                    a[j+1] = temp;
+                    // swapping inputArray[j+1] and inputArray[j]
+                    int temp = inputArray[j];
+                    //for example 5, 2
+                    inputArray[j] = inputArray[j + 1];
+                    //for example 2, 2
+                    inputArray[j + 1] = temp;
+                    //for example 2, 5
                 }
+            }
+        }
     }
 
     /* Prints the array */
@@ -32,7 +38,7 @@ public class BubbleSort {
     {
         int a[] = {64, 34, 25, 12, 22, 11, 91};
 
-        bubbleSort(a);//calling the bubbleSort function
+        SortByBubble(a);//calling the bubbleSort function
 
         System.out.println("Sorted array");
 
