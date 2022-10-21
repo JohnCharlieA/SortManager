@@ -2,7 +2,7 @@ package com.sparta.ja.Model;
 
 public class BubbleSort {
 
-    public static int[] SortByBubble(int[] inputArray)
+    public static int[] sortByBubble(int[] inputArray)
     {
         int length = inputArray.length; // calculating the length of array
         for (int i = 0; i < length; i++)
@@ -39,7 +39,7 @@ public class BubbleSort {
     {
         int a[] = {64, 34, 25, 12, 22, 11, 91};
 
-        SortByBubble(a);//calling the bubbleSort function
+        sortByBubble(a);//calling the bubbleSort function
 
         System.out.println("Sorted array");
 

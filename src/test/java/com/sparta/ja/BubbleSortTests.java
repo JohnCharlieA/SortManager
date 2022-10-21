@@ -22,7 +22,7 @@ public class BubbleSortTests
         int[] expectedOutput = new int[]{1, 5, 13, 19, 62, 68};
 
         //Act
-        int[] sortedArray = BubbleSort.SortByBubble(numbersToSort);
+        int[] sortedArray = BubbleSort.sortByBubble(numbersToSort);
 
         //Assert
         assertArrayEquals(expectedOutput, sortedArray);
