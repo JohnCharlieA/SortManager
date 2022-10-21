@@ -2,10 +2,10 @@ package com.sparta.ja.Sorters;
 
 public class BubbleSort {
 
-    public static void SortByBubble(int inputArray[])
+    public static int[] SortByBubble(int[] inputArray)
     {
         int length = inputArray.length; // calculating the length of array
-        for (int i = 0; i < length - 1; i++)
+        for (int i = 0; i < length; i++)
         {  // for example 5, 2, 4, 8
             for (int j = 0; j < length - 1; j++)
             {
@@ -21,6 +21,7 @@ public class BubbleSort {
                 }
             }
         }
+        return inputArray;
     }
 
     /* Prints the array */
